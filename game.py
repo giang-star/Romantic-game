@@ -22,7 +22,7 @@ haiY_change = []
 num_of_hai = 5
 
 for i in range(num_of_hai):
-    haiImg.append(pygame.image.load('hai.png'))
+    haiImg.append(pygame.image.load('Capture.png'))
     haiX.append(random.randint(0,735))
     haiY.append(random.randint(20,150))
     haiX_change.append(0.2)
